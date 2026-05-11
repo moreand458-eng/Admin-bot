@@ -1,0 +1,8 @@
+node_modules/
+auth_info/
+auth_info_baileys/
+*.log
+.env
+tmp/
+system/contests.json
+system/database.json

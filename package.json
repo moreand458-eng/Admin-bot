@@ -1,0 +1,30 @@
+{
+  "name": "escanor-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot - Developed by ESCANOR & Gojo Satoru",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["whatsapp-bot", "escanor-bot"],
+  "author": "𝑬𝑺𝑪𝑨𝑵𝑶𝑹",
+  "license": "MIT",
+  "dependencies": {
+    "meowsab": "https://github.com/moreand458-eng/ws/tarball/main",
+    "sharp": "https://github.com/moreand458-eng/sharp/tarball/main",
+    "cheerio": "1.0.0-rc.12",
+    "chokidar": "^5.0.0",
+    "file-type": "^18.0.0",
+    "form-data": "^4.0.5",
+    "axios": "^1.7.2",
+    "qs": "*",
+    "wa-sticker-formatter": "^4.3.2"
+  },
+  "overrides": {
+    "sharp": "https://github.com/moreand458-eng/sharp/tarball/main",
+    "*": {
+      "sharp": "https://github.com/moreand458-eng/sharp/tarball/main"
+    }
+  }
+}
